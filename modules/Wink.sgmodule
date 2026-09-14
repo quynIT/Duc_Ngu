@@ -1,0 +1,9 @@
+#!url=https://raw.githubusercontent.com/quynIT/Duc_Ngu/refs/heads/main/modules/Wink.sgmodule
+#!name=Wink (MeiTu)
+#!desc=Crack By duyvinh09
+
+[Script]
+Wink = type=http-response, pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json, requires-body=1, script-path=https://raw.githubusercontent.com/quynIT/Duc_Ngu/refs/heads/main/js/WinkVipCrack.js
+
+[MITM]
+hostname = %APPEND% api-sub.meitu.com
